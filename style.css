@@ -1,0 +1,339 @@
+
+body {
+	overflow-x: hidden;
+}
+.lead{
+	margin-top: 0.100px;
+}
+.jumbotron {
+      background-image: url('your-image-url.jpg');  
+      background-size: cover;
+      color: black;
+      /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);*/
+      padding: 1rem ;
+      width: 1534px;
+	height: 175px;
+    }
+.navbar-brand{
+	font-weight: bold;
+}
+.navbar-text a {
+	color: white;
+}
+#photu1{
+  margin-top: -180px;
+	margin-right: 800px;
+	margin-left: 800px;
+	transition: transform 0.5s ease;
+}
+#quotes {
+  margin-left: 120px;
+  text-align: center;
+  font-size: 20px;
+ font-family: "Mea Culpa", cursive;
+  font-weight: bold;
+  font-style: normal;
+
+}
+.p{
+	margin-left:400px;
+   margin-top: -120px;
+}
+  .card {
+      margin-bottom: 20px; 
+    }
+
+ .about-section {
+    padding: 50px 0;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+.gallery {
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    margin-bottom: 10px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact,
+.footer-social {
+  flex: 1;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+ #button1 {
+ 	margin-left: 400px;
+ }
+ .sticky-button {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: blue;
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sticky-button:hover {
+  background-color: gray; 
+}
+.Popular_tmi {
+	margin-top: 5px;
+	width: 100%;
+	float: left;
+	padding: 60px 0 60px 0;
+	background: #f9f9fa;
+	 width: 1535px;
+	height: 210px;
+}
+.Popular_tmi h3 {
+	font-size: 16px;
+	line-height: 26px;
+	color: #3b404b;
+	font-family: SFProDisplay-Bold;
+
+}
+.thing-to-do {
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+
+button {
+	text-decoration: none;
+	outline: 0;
+	margin: 0;
+}
+.thing-to-do button {
+	width: auto;
+	border: 1px solid #ff6612;
+	text-align: center;
+
+    background: transparent;
+    cursor: pointer;
+  transition: background 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 15px;
+   font: 14px / 25px 'SFProDisplay-Regular';
+    color: #ff6612;
+  width: auto;
+    margin-right: .8%;
+    margin-bottom: .8%;
+}
+.thing-to-do button:hover {
+	background: rgb(230, 230, 230);
+}
+.icon i {
+	display: flex;
+	display: inline-block;
+	
+	cursor: pointer;
+  transition: background 0.3s;
+}
+.icon i:hover {
+	display: inline-block;
+	 width: auto;
+     background: rgb(255, 0, 0);
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #E1306C;
+  color: white;
+}
+
+.telegram{
+  background: #27A7E7;
+  color: white;
+}
+
+.whatsapp {
+  background: #5FFC7B;
+  color: white;
+}
+.card {
+      margin-bottom: 20px; 
+    }
+.prev-arrow {
+  top:2700px;
+    left: 44%;
+    transform: translateX(5px);
+}
+.slick-arrow {
+    position: absolute;
+    bottom: -86px;
+    color: #ff6612;
+    background: #fff;
+    border: 1px solid #d9d9e8;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.next-arrow {
+  top:2700px;
+    left: 50%;
+    transform: translateX(-8px);
+}
+.slick-arrow {
+    position: absolute;
+    bottom: -86px;
+    color: #ff6612;
+    background: #fff;
+    border: 1px solid #d9d9e8;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Travelliing Is Life</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 class="navbar-brand" >Tours & Travels</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="bi bi-house-heart"></i>Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <i class="bi bi-geo-fill"></i> Destinations
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Domestic</a>
+                    <a class="dropdown-item" href="#">International</a>
+                </div>
+            </li>
+           <!--  <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            &nbsp;
+            &nbsp;
+            <div class="search-container" mt-100px>
+    <form action="/search" method="GET">
+        <input type="text" placeholder="Search..." name="search" class="search-box">
+        <button type="submit" class="search-button">Search</button>
+    </form>
+</div>
+&nbsp;
+            <span class="navbar-text">
+                <a href="#registermodal" data-toggle="modal">Register </a>&nbsp;
+                <a href="#loginmodal" data-toggle="modal">Login </a>
+            </span>
+        </ul>
+    </div>
+</nav>
+
+    </form>
+  </div>
+</nav>
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 class="display-6">Explore the World with Us</h1>
+    <p class="lead">Discover your next adventure with our travel experts.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+  </div>
+</div>
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="container-fluid">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/89/73/01/plage-de-navagio.jpg?w=1200&h=-1&s=1" class="img-fluid" alt="First slide" width="100px" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://images.405magazine.com/wp-content/uploads/2022/02/10-October-2018-Travel-Wisconsin-04.jpg"  class="img-fluid" alt="Second slide"  width="100px" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://qph.cf2.quoracdn.net/main-qimg-2683e99490bd5e2fe3015c88a363b5e6-lq" class="img-fluid"  alt="Third slide" width="100px" height="500px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span4>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+&nbsp;
+<div class ="footer">
+<div class="container-fluid">
+<div class="col-md 11">
+                <div class="row">
+                     <div class="col-md-11">
+                         <h3 class="text-center my-2"><li>About Us</li></h3>
+                         <p>Welcome to Trvelling Is Life, your ultimate destination for memorable travel experiences both near and far. At Trvelling Is Life, we're passionate about exploring the world and helping you create unforgettable adventures, whether you're looking to discover hidden gems in your own backyard or embark on a journey across continents.</p><p> Established 1995,  began with a simple mission: to connect travelers with the wonders of the world. What started as a small venture fueled by wanderlust has since grown into a trusted platform for travel enthusiasts worldwide. With a team of experienced travelers and industry experts, we're dedicated to providing you with the tools and resources you need to plan your dream getaway.</p>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+&nbsp;
+<div class="container-fluid">
+<div class=" image-container">
+     <div class="col-md-6">
+    <div class="row">
+      <p id="quotes" > 
+      <br/>
+       “To my mind, the greatest reward and luxury of travel is to be able to experience everyday things as if for the first time, to be in a position in which almost nothing is so familiar it is taken for granted.” </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2hRSTlCZ1lNJI6O41_MCuP1sgbnexXDJ4tUPDGHkRNv8su89Y7ehzQkFXznbVne6NmQ&usqp=CAU" id="photu1" width="700px" height="300px"> 
+</div>
+</div>
+<div class="contianer">
+    <div class="row">
+    
+
+    
+</div>
+</div>
+</div>
+
+&nbsp;
+&nbsp;
+
+
+    <div class="Popular_tmi">
+        <div class="container-fluid">
+        <h2 class> Popular International Holiday Destinations</h2>
+        <div class="box-1">
+            <div class="thing-to-do">
+                <button>Bhutan Tours Packages</button>
+                <button>Nepal Packages</button>
+                <button>Dubai Holidays Packages</button>
+                <button>Sri Lanka Tours Packages</button>
+                <button>Thailand Tours Packages</button>
+                <button>Singapore Holidays Packages</button>
+                <button>Australia Tour Packages</button>
+                <button>Maldives Tourism Packages</button>
+                <button>Tibet Tours Packages</button>
+                <button>Malaysia Packages</button>
+                <button>Indonesia Tourism Packages </button>
+                <button>Europe Tours from India Packages</button>
+                <button>Vietnam Sightseeing Tours Packages</button>
+                <button>Switzerland Tours from India Packages</button>
+                <button>Hong Kong Tours Packages</button>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/><br/>
+
+
+ <h1 font-weight: bold>&nbsp;&nbsp;&nbsp;&nbsp;Weekend Special</h1>
+ <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View All Tours > </h5>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+        <img src="https://www.tourmyindia.com/tmimg/delhi-weekend.webp" class="img-fluid">
+        <p> 25 Tour Packages</p>
+        <h4 style="font-weight:bold;">Weekend Trips From Delhi</h4>
+    </div>
+     <div class="col-md-3">
+        <img src="https://www.tourmyindia.com/tmimg/mumbai-gate.webp" class="img-fluid">
+         <p> 20 Tour Packages</p>
+        <h4 style="font-weight:bold;">Weekend Trips From Mumbai</h4>
+    </div>
+     <div class="col-md-3">
+        <img src="https://www.tourmyindia.com/tmimg/bangalore-weekend.webp" class="img-fluid">
+         <p> 25 Tour Packages</p>
+        <h4 style="font-weight:bold;">Weekend Trips From Banglore</h4>
+    </div>
+     <div class="col-md-3">
+        <img src="https://www.tourmyindia.com/tmimg/chennai-weekend.webp" class="img-fluid">
+         <p> 25 Tour Packages</p>
+        <h4 style="font-weight:bold;">Weekend Trips From Chennai</h4>
+    </div>
+</div>
+</div>
+<div class="text-center mt-3">
+            <button class="btn btn-primary prev-btn">Previous</button>
+            <button class="btn btn-primary next-btn">Next</button>
+        </div>
+    </div>
+ <h1 font-weight: bold>&nbsp;&nbsp;&nbsp;&nbsp;Things To Do On India Tour</h1>
+ <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View All Tours > </h5>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+        <img src="https://www.tourmyindia.com/tmimg/safari-things.webp" class="img-fluid"></img>
+          <h4 class="card-title">Encounter the wild: An Exhilarating Wildlife Safari</h4>
+          <p class="card-text">Embarking on a wildlife safari in india is an exhilarating adventure. Witness the majestic Bengal tigers in their natural habitat, spot herds of elephants roaming freely, and marvel at the rich diversity of bird species. This immerrsive experience brings you closer to nature's untouched beauty and its intriguing wildlife.
+          </p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://miro.medium.com/v2/resize:fit:9792/1*FFpUeYtX60i4eza550zEjA.jpeg" class="img-fluid"></img>
+          <h4 class="card-title">High-Altitude Explores:Trekking & Hiking Escapades</h4>
+          <p class="card-text">Embarking on a trekking adventure in the majestic Indian Himalayas is one of ht emost thrilling things to do for nature enthusiasts.</p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/rafting-things.webp" class="img-fluid"></img>
+          <h4 class="card-title">Riding the Rapids: Thrilling River rafting Experiences</h4>
+          <p class="card-text">White water river rafting in India is an electrifying adventure experience. Feel the adrenaline rush while navigating the rapid waves of River Ganges in Rishikesh, the wild waters in Manali, the icy currents of Zanskar, or the untamed rivers in Northeast India. Each offers a unique and thrilling ride!</p>
+
+        </div>
+      </div>
+
+</div>
+</div>
+</div>
+<div>
+ <span class="prev-arrow slick-arrow" style="display: block;">
+        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+    </span>
+    <div class="slick-list draggable"></div>
+    <span class="next-arrow slick-arrow" style="display: block;">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+    </span>
+</div> 
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+        <img src="https://www.tourmyindia.com/tmimg/j&k-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Jammu Kashmir Tourism </h4>
+          
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/rajasthan-tourism.webp"class="img-fluid"></img>
+          <h4 class="card-title">Rajasthan Tourism Guide</h4>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/kerala-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Kerala Tourism Guide</h4>
+        </div>
+      </div>
+  </div>
+   <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/ladakh-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Ladakh Tourism Guide</h4>
+          </div>
+      </div>
+  </div>
+</div>
+
+<section>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+        <img src="https://www.tourmyindia.com/tmimg/himachal-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Himachal Tourism Guide </h4>
+          
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/sikkim-tourism.webp"class="img-fluid"></img>
+          <h4 class="card-title">Sikkim Tourism Guide</h4>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="C:\Users\Megha1\OneDrive\Desktop\Project\packages\uttarakhand-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Uttarakhand Tourism </h4>
+        </div>
+      </div>
+  </div>
+   <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://www.tourmyindia.com/tmimg/goa-tourism.webp" class="img-fluid"></img>
+          <h4 class="card-title">Goa Tourism Guide</h4>
+          </div>
+      </div>
+  </div>
+</div>
+ <div class="text-center mt-3">
+            <button class="btn btn-primary prev-btn">View All</button>
+        </div>
+        <br/>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.hhewOmTr1d_mht3cfW35FQHaE7&pid=Api&P=0&h=180" class="img-fluid"></img>
+          <h5 class="card-title">Mount-Pilatus</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          </p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://tse1.mm.bing.net/th?id=OIP.tMv41wUnw1RWP08cjSfiAwHaE8&pid=Api&P=0&h=180"class="img-fluid"></img>
+          <h5 class="card-title">Lake-Lugano-and-Ticino</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://media.gettyimages.com/id/594835485/photo/matterhorn-mountain-reflected-in-a-lake-zermatt-switzerland.jpg?s=612x612&w=0&k=20&c=3wVxGDQE6FVq1nBnD56VFyleDMYZ1VRc4sAnWZ410sE=" class="img-fluid"></img>
+          <h5 class="card-title">Matterhorn</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+             <img src="https://tse3.mm.bing.net/th?id=OIP.lfadu6Hw0kSNdCafGXZ_ggHaE7&pid=Api&P=0&h=180" class="img-fluid"></img>
+          <h5 class="card-title">The Rhine Falls2</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+ 
+ &nbsp;
+ &nbsp;
+ 
+        </div>
+        <div class="container-fluid">
+        <h2 class="text-center">Gallery</h2>
+        <div class="row gallery">
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/238622/pexels-photo-238622.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 3" class="img-fluid">
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-primary prev-btn">Previous</button>
+            <button class="btn btn-primary next-btn">Next</button>
+        </div>
+
+
+    &nbsp;
+    &nbsp;
+
+
+
+
+<div class ="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+             <h3><li>Contact Us</li></h3>
+         <ul> <p>Phone: +1234567890</p>
+          <p>Email: example@example.com</p>
+          <p>Address: 123 Main Street, City, Country</p></ul>
+          <h3><ul><li>You Can Also Contact Us On Social Media</li> </ul></h3>
+          <ul><i class="bi bi-instagram"></i>&nbsp;&nbsp;
+          <i class="bi bi-whatsapp"></i>&nbsp;&nbsp;
+          <i class="bi bi-facebook"></i></ul>
+        <div class="row">
+        <img src="C:\Users\Megha1\OneDrive\Desktop\Project\travels\googleplay.svg" alt="Download Android App" ><img>
+            &nbsp;&nbsp;&nbsp;
+        <img src="C:\Users\Megha1\OneDrive\Desktop\Project\travels\appstore.svg" alt="Download Android App"></img>
+    </div>
+    
+            </div>
+            
+                 <div class="row">
+              <div class="col-md-3"> 
+                <ul><h4>Holiday Theme</h4>
+                <li>Wildlife</li>
+                <li>Honeymoon</li>
+                <li>Adventure</li>
+                <li>Pilgrimage</li>
+                <li>Heritage</li></ul>
+            </div> 
+        </div>
+
+          
+             <!-- <div class="col-md 3"> -->
+                 <div class="row">
+                  <div class="col-md-3"> 
+                    <ul><h4>Top Tourist Destination</h4>
+                    <li> India </li>
+                    <li>Dubai</li>
+                    <li>Thailand  </li>
+                    <li>Nepal </li>
+                    <li> Malaysia</li>
+                    <li>Myanmar</li></ul>             
+                </div>
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <div class="col-md 4">
+                 <div class="row">
+              <!--   <div class="col-md-3"> -->
+                <ul><h4>Trekking Holidays</h4>
+                <li>Chopta Chandrashila Trek</li>
+                <li>Roopkund Lake Trek</li>
+                <li>Frozen River Trek</li>
+                <li>Valley of Flowers Trek</li>
+                <li>Snow Leopard Trek</li>
+                <li>Markha Valley Trek</li>
+                <li>Kanchenjunga BC Trek</li>
+                <li>Pin Parvati Pass Trek</li>
+                <li>Dzongri Goecha La Trek</li>
+            </ul>
+            </div>
+
+        </div>
+
+          
+                   
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Sticky button -->
+  <button class="sticky-button">LET'S PLAN YOUR TRIP</button>
+
+<!-- register modal -->
+
+
+
+<!-- end of register modal -->
+<div class="modal" tabindex="-1" role="dialog" id="registermodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+             <div class="form-group">
+    <label for="exampleInputFullname">Full Name</label>
+    <input type="text" class="form-control" id="exampleInputFullname" aria-describedby="emailHelp" placeholder="Enter Fullname">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputcontact">Contact</label>
+    <input type="tel" class="form-control" id="exampleInputcontact" aria-describedby="emailHelp" placeholder="Enter contact">
+  </div>
+  <button type="submit" class="btn btn-primary">Register</button>
+  <p>Already have an Account <a href="#loginmodal" data-toggle="modal" data-dismiss="modal">Sign in</a></p>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- login modal -->
+<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+  <p> Don't have an Account? <a href="#registermodal" data-toggle="modal" data-dismiss="modal" >Sign up</a></p>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of login modal -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="telegram"><i class="fa fa-telegram"></i></a>
+  <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+</div>
+ 
+
+
+</body>
+</html>
